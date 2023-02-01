@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'SQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              With three years of experience in the management consulting industry and currently
+              pursuing a master's degree in data science, I am seeking a data-focused role in the
+              technology industry.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              My strong analytical and problem-solving skills, combined with excellent communication
+              and collaboration abilities, make me a strong fit for a data-driven role. I am
+              proficient in data analysis tools such as Python, R, and SQL and have a passion for
+              using data to drive business decisions and improve processes. My master's degree in
+              Data Science has provided me with the technical skills and real-world experience to
+              effectively analyze and interpret data. Additionally, my experience in managing
+              consulting projects, conducting market research, and collaborating with
+              cross-functional teams has honed my project management, communication, and
+              problem-solving skills. I am confident in my ability to work in a fast-paced and
+              dynamic environment and deliver results for any data-related challenge.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +165,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="/Users/saikrishna/Downloads/IMG_6154.JPG"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
